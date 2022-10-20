@@ -1,0 +1,370 @@
+.container{
+  width: 1850px !important;
+  max-width: 1258px !important;
+}
+
+
+
+
+
+
+
+
+#vid{
+  height: auto;
+  position: relative;
+}
+#vid .overlay{
+  position: absolute;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.279);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.bg-graphics .background{
+  position: absolute;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+}
+
+.bg-graphics .item h2{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 35px;
+color: white;
+}
+.bg-graphics .item h4{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: regular;
+  font-size: 17px;
+  color: white;
+  }
+  .bg-graphics .item .icon svg{
+    margin-top: 80px;
+  }
+
+  .bg-graphics .item{
+    position: relative;
+  }
+  .bg-graphics .item .text_content{
+    position: absolute;
+    left: 94px;
+    top: 82px;
+  }
+
+
+
+  /* About Us section started from here============ */
+
+
+#about{
+  margin-top: 150px;
+}
+#about img{
+  width: 100%;
+}
+#about button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #204ECF;
+  background: FFFFFF;
+  padding: 10px 18px;
+  border: 0;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+#about h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #262D3D;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#about p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #415674;
+  font-weight:normal;
+  margin-top: 15px;
+}
+#about span{
+  float: left;
+  padding-left: 10px;
+}
+#about h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #204ECF;
+  background: FFFFFF;
+  padding: 10px 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  
+}
+
+
+
+
+/* Top Category parts starting from here============= */
+
+
+
+#category{
+  background:#F5F7FE;
+}
+#category h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #262D3D;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+#category .item{
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 27px;
+}
+#category .item h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #262D3D;
+  font-weight: bold;
+  position: absolute;
+  left: 95px;
+  top: 35px;
+}
+#category .bottom{
+  padding-bottom: 51px;
+}
+
+
+
+
+
+/* Leading Companies parts start from here======================== */
+
+
+
+#companies{
+  background:#204ECF;
+}
+#companies h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+#companies img{
+  width: 100%;
+  repeat: no-repeat;
+}
+#companies .bottom{
+  padding-bottom: 93px;
+}
+
+
+
+
+
+/* Instractor part starts from here===================================== */
+
+
+
+#instractor h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #262D3D;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+#instractor img{
+  width: 100%;
+  repeat: no-repeat;
+}
+#instractor h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #262D3D;
+  font-weight: bold;
+  padding-top: 15px;
+}
+#instractor h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #415674;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+#instractor .icon-part{
+  padding-top: 10px;
+}
+#instractor .icon-part span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #415674;
+  font-weight: 400;
+  padding-right: 11px;
+  padding-left: 4px
+}
+#instractor button{
+  background-color: #204ECF;
+  border-radius: 25px;
+  padding: 11px 21px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+#instractor .text-center {
+	text-align: center !important;
+	margin: 56px;
+}
+
+
+
+
+
+/* Blog Part starts from here================================== */
+
+
+
+
+#blog h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #262D3D;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#blog img{
+  width: 100%;
+  repeat:no-repeat;
+  margin-bottom: 7px;
+}
+#blog span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #809ABE;
+  font-weight: 400;
+}
+#blog h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #262D3D;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+#blog a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #204ECF;
+  font-weight: 500;
+}
+
+
+
+/* Have Project? part starts from here===================================== */
+
+
+
+#project{
+  padding-bottom: 70px;
+}
+#project .one{
+  background-color: #204ECF;
+  border-radius: 7px;
+  margin-top: 70px;
+}
+#project h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+#project h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+#project button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #204ECF;
+  font-weight: 400;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 18px;
+  margin: 24px 0 51px 0;
+}
+
+
+
+
+/* Footer Part starts from here=================================== */
+
+
+#footer{
+  background-color: #F5F7FE;
+  padding-top: 50px;
+}
+#footer img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+#footer h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #415674;
+  font-weight: 400;
+  padding: 5px;
+}
+#footer h3{
+  color: #262D3D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer h5{
+  color: #809ABE;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
