@@ -1,0 +1,102 @@
+
+@media (min-width:320px) and (max-width: 767px) { 
+    #vid  .content {
+        position: absolute;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 20px;
+    }
+    #vid  .banner_content {
+        width: 100%;
+    }
+    #vid  .banner_content h1 {
+        font-size: 32px;
+        padding: 10px 0px;
+    }
+    #vid  .banner_content h4 {
+        font-size: 20px
+    }
+    #vid  .banner_content p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    #vid  ul li a {
+        font-size: 16px;
+        border-radius: 15px;
+        padding: 8px 15px;
+    }
+    #vid  ul li button {
+        border: 0px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        color: white;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .container_testimonial {
+        max-width: 100% !important;
+    }
+
+ }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+    #blog figure {
+        margin-bottom: 50px;
+    }
+    #vid  .banner_content {
+        width: 100%;
+    }
+    #vid  .banner_content h1 {
+        font-size: 60px;
+        padding: 1px 0px;
+    }
+    #vid  ul li a {
+        font-size: 24px;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 20px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
+    .navbar-brand {
+        width: 65%;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 8px;
+    }
+    #vid  .banner_content {
+        width: 90%;
+    }
+    #vid  .banner_content h1 {
+        font-size: 60px;
+        padding: 20px 0px;
+    }
+    #vid  .banner_content p {
+        font-size: 18px;
+        padding-right: 250px;
+        padding-bottom: 25px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
